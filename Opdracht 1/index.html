@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/WebDev/Home page/styles/headerfootercss.css">
+    <link rel="stylesheet" type="text/css" href="/WebDev/Home page/styles/stylesheet.css"
+    <link rel="stylesheet" type="text/css" href="Styles/stylesheet.css">
+    <link rel="icon" type="image/png" href="/WebDev/Home page/Images/vives-hs-logo-rood-rgb.png">
+    <title>Labo 1</title>
+</head>
+<body>
+    <nav class="main-nav">
+        <h1 id="header">
+            <a id="brah" href="/WebDev/Home page/homepage.html">Web Deverlopment</a> 
+            <div class="dropdown">
+                <button class="dropbtn">HTML</button>
+                <div class="dropdown-content">
+                  <a href="/WebDev/Opdracht 1/index.html">Labo 1</a>
+                  <a href="/WebDev/Labo 2/index.html">Labo 2</a>
+                  <a href="#">Labo 3</a>
+                </div>
+              </div>
+              <div class="dropdown">
+                <button class="dropbtn">CSS</button>
+                <div class="dropdown-content">
+                  <a href="/WebDev/Opdracht 1/Styles/stylesheet.css">Labo 1</a>
+                  <a href="/WebDev/Labo 2/Styles/stylesheet.css">Labo 2</a>
+                  <a href="#">Labo 3</a>
+                </div>
+              </div>
+            
+        </h1>
+    </nav>
+    <h1>
+        Opdracht 1.
+    </h1>
+    <p class="vraag">
+        http client-server schematische voorstelling
+    </p>
+    <img src="images/schema.png" alt>
+
+    <h1>
+        Opdracth 2.
+    </h1>
+    <p class="vraag">
+        Duid de vershillende delen van de volgende URL
+    </p>
+    <div class="container">
+        <!-- Col1-->
+        <div class="container_column">
+        <p style="margin-left:10px;">
+            <span style="background-color: red;">https://</span>
+            <span style="background-color: lightblue;">www.bol.com</span>
+            <span style="background-color: green;">/nl/p/hoe‐werkt‐dat‐nou/9200000057347012/</span>
+            <span style="background-color: orange;">?country=BE&amp;suggestionType=browse</span>
+            <span style="background-color: fuchsia;">#product_alternatives</span>
+        </p>
+        </div>
+        <!-- Col2-->
+        <div class="container_column">
+            <p class="nospace"><span style="background-color: red;">Protocol</span></p>
+            <p class="nospace"><span style="background-color: lightblue;">Host</span></p>
+            <p class="nospace"><span style="background-color: green;">Path</span></p>
+            <p class="nospace"><span style="background-color: orange;">parameter</span></p>
+            <p class="nospace"><span style="background-color: fuchsia;">fragment</span></p>
+        </div>
+    </div>
+
+    <h1>
+        Opdracht 3.
+    </h1>
+    <p class="vraag">
+        Open de Chrome ontwikkelaar tools (F12), ga naar het Network tabblad en surf naar <a href="https://www.htmldog.com/examples/headings1.html">https://www.htmldog.com/examples/headings1.html</a>
+    </p>
+    <h1>
+        Opdracht 4.
+    </h1>
+    <p class="vraag">
+        Welke resources heeft je browser nog meer opgevraagd? Hoe zie je dit?
+    </p>
+    <img src="images/opd4.png" alt>
+    <h1>
+        Opdracht 5.
+    </h1>
+    <div>
+        <p class="vraag">
+            Welke andere soorten resources worden opgevraagd door het inladen van deze pagina?
+        </p>
+        <p class="antwoord">
+            Soorten resources: scripts, fonts, stylesheet, document…
+        </p>
+        <p class="vraag">
+            Werden alle requests naar dezelfde server verstuurd?
+        </p>
+        <p class="antwoord">
+            Requests naar verschillende servers
+        </p>
+        <p class="vraag">
+            Hoe kun je dit uit de timing informatie afleiden?
+        </p>
+        <p class="antwoord">
+            Er worden verschillende items op verschillende momenten opgevraagd
+        </p>
+    </div>
+    <h1>
+        Opdrach 6.
+    </h1>
+    <p class="vraag">
+        Afhankelijk van welke webmail provider je gebruikt, zul je zien dat er na verloop van tijd requests bijkomen ook al verandert er niks aan de webpagina. Waarvoor zouden die 'spontane' requests dienen?
+    </p>
+    <p class="antwoord">
+        Statistieken/voor advertenties/om te weten wat je al allemaal hebt bekeken
+    </p>
+    <h1>
+        Opdracht 7.
+    </h1>
+    <p class="vraag">
+        Wat betekent de status code 404 in de response header?
+    </p>
+    <p class="antwoord">
+        Page not found
+    </p>
+    <h1>
+        Opdracht 8.
+    </h1>
+    <p class="vraag">
+        Wat is het verschil met de vorige opdracht?
+    </p>
+    <p class="antwoord">
+        Bij de vorige opdracht bestond een subpagina niet van een bepaalde website, hier bestaat de hele pagina niet.
+    </p>
+    <h1>
+        Opdracht 9.
+    </h1>
+    <p class="vraag">
+        Zoek onderstaande HTTP status codes
+    </p>
+    <table>
+        <tbody><tr>
+            <th>Goed gevold</th>
+            <th>Omleiding</th>
+            <th>Aanvraag fout</th>
+            <th>serverfout</th>
+
+        </tr>
+        <tr>
+            <td>200 <br>
+                204
+            </td>
+            <td>
+                301<br>
+                302<br>
+                303
+
+            </td>
+            <td>
+                400<br>
+                401<br>
+                404
+
+            </td>
+            <td>
+                500<br>
+                503
+
+            </td>
+        </tr>
+    </tbody></table>
+    <h1>
+        Opdracht 10.
+    </h1>
+   <div>
+        <p class="vraag">
+            Zoek op het internet welke HTTP request methods er bestaan en schrijf ze neer.
+        </p>
+        <p class="antwoord">
+            POST, GET, PUT, PATCH, DELETE
+        </p>
+        <p class="vraag">
+            Waarvoor dienen de vaak gebruikte GET en POST methods?
+        </p>
+        <p class="antwoord">
+            POST: The POST verb is most-often utilized to **create** new resources.
+            GET: The HTTP GET method is used to **read** (or retrieve) a representation of a resource.
+        </p>
+        <p class="vraag">
+            Waar in een request staat aangegeven om welke request method het gaat, en hoe vind je dit terug in de Chrome developer tools?
+        </p>
+        <p class="antwoord">
+            Je kan ziet om welke methode het gaat in de tabel bij Method
+        </p>
+        <p class="vraag">
+            Als je een url in de adresbalk van je browser typt en op enter drukt, wat voor request method gebruikt de browser dan om die resource op te vragen bij de server?
+        </p>
+        <p class="antwoord">
+            GET
+        </p>
+        <p class="vraag">
+            Als je in een webpagina op een gewone hyperlink klikt, welke request method wordt er dan gebruikt?
+        </p>
+        <p class="antwoord">
+            GET
+        </p>
+        <p class="vraag">
+            (informatie)...
+            <br>
+            Wat zou er dan gebeuren met de productgegevens?
+        </p>
+        <p class="antwoord">
+            Als dit gebeurt word alle inhoud van alle paginas gewist.
+        </p>
+   </div>
+   <h1>
+       Opdracht 11.
+   </h1>
+   <p class="vraag">
+       Bekijk de vele requests die het inladen van die ene pagina heeft veroorzaakt. Hoeveel request waren er in totaal?
+   </p>
+   <p class="antwoord">
+       in totaal waren er 53 requests. (wss zijn verschillende resultaten mogelijk)
+   </p>
+   <h1>
+       Opdracht 12.
+   </h1>
+   <div>
+       <p class="vraag">
+        Hoeveel kilobytes of megabytes aan data werd er verstuurd om alle nodige resources in te laden?
+       </p>
+       <p class="antwoord">
+           3.1MB
+       </p>
+       <P class="vraag">
+           Hoe lang duurde et vooraleer alle resources van de pagina waren ingeladen?
+       </P>
+       <p class="antwoord">
+           3.78s
+       </p>
+       <p class="vraag">
+            Kijk nogmaals hoeveel data er werd verstuurd. Waarom is dit zoveel minder? Laadde de pagina sneller?
+       </p>
+       <p class="antwoord">
+           Bepaalde gegevens waren opgeslagen in het cache gegeugen.
+           <br>Na het gewoon te herladen werd de website sneller geladen.
+       </p>
+       <p class="vraag">
+            Waar kun je zien welke documenten daadwerkelijk verstuurd werden en welke niet?
+       </p>
+       <p class="antwoord">
+           Je kan zien wat er is verstuurd bij de size.
+       </p>
+       <p class="vraag">
+            Waar vindt de browser dan de inhoud van de documenten die niet bij de server werden opgevraagd?
+       </p>
+       <p class="antwood">
+           Je kan dit ook terug vinden bij de Size.
+       </p>
+   </div>
+   <h1>
+        Opdracht 13.
+   </h1>
+   <div>
+        <p class="vraag">
+             Schrijf bij elke webpagina hoeveel tracking scripts door Ghostery worden ontdekt.
+        </p>
+        <ul>
+            <li>Nieuwsblad: 35</li>
+            <li>Cnn: 10</li>
+            <li>Vives: 4</li>
+            <li>Vrt: 8</li>
+        </ul>
+        <p class="vraag">
+            Welke soorten tracking scripts je bent tegengekomen?
+        </p>
+        <p class="antwoord">
+            Veel voorkomend, analytics, advertising, facebook.
+        </p>
+   </div>
+   <h1>
+       Opdracht 14.
+   </h1>
+   <p class="vraag">
+       Hoeveel verschillende layouts tel je?
+   </p>
+   <div class="starbucks">
+       <p class="antwoord">
+            Start situatie full screen
+       </p>
+       <img src="images/starB1.png" alt class="img">
+       <p class="antwoord">
+           Bij smallere window verandered de header van de pagina.
+       </p>
+       <img src="images/starB2.png" alt class="img">
+       <p class="antwoord">
+           Nog smaller word de banner aangepast en word de layout van boven naar onder implaats van van links naar rechts.
+       </p>
+       <img src="images/starB3.png" alt class="img">
+   </div>
+   <footer>
+       Michael Elgius 1TIa  WebDev 2021-2022
+   </footer>
+</body>
+</html>
