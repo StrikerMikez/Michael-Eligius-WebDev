@@ -1,12 +1,19 @@
 body, html {
 	height: 100%;
 	padding: 10px;
+    
 }
 body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
 
 #header #brah{
     color: white;
     text-decoration: none;
+}
+
+.text{
+    width: 50%;   
+    margin: auto;
+    text-align: center;
 }
 
 nav > #header{
